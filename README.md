@@ -18,8 +18,8 @@ The device we have used for this test is available [here](https://produto.mercad
 
 ![printer01](/docs/printer01.jpg)
 
-This model doesn't recognize special character such as "ç" and "Á", so the correspondent ASCII characters will replace them.
-
+This model doesn't recognize special character such as "?" and "?", so the correspondent ASCII characters will replace them.
+You can test the demo [here](https://quasar-pwa-bluetooth-printer.surge.sh).
 
 ## How to run this project
 
@@ -28,9 +28,19 @@ Install the dependencies
 npm install
 ```
 
-Run the app into your mobile phone with Bluetooth available.
+Run the app.
 ```bash
 quasar dev -m pwa
+```
+
+Detect your local IP address.
+```bash
+ipconfig
+```
+
+Open a Chrome tab in your mobile phone and access this link.
+```bash
+https://<YOUR-IP>:8080
 ```
 
 The main screen is very simple. Only a textarea and a button. 
