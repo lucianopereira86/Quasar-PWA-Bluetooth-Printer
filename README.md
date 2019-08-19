@@ -19,6 +19,7 @@ The device we have used for this test is available [here](https://produto.mercad
 ![printer01](/docs/printer01.jpg)
 
 This model doesn't recognize special characters, so the correspondent ASCII characters will replace them.
+
 You can test the demo at [Surge](https://quasar-pwa-bluetooth-printer.surge.sh).
 
 ## How to run this project
